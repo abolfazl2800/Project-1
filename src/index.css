@@ -30,6 +30,8 @@ input , select , textarea , button{
 .center{
   background-color: green;
   width: 300px;
+  font: optional;
+  flex-grow: 3rem;
 }
 
 .radius{
