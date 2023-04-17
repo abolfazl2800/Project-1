@@ -7,6 +7,7 @@ const App = () => {
         <div className='right radius'></div>
         <div className='center radius'></div>
         <div className='left radius'></div>
+        enmeimhoertinhkjtnhotnhointhith;iabibrg
       </div>
       <input type='file'></input>
     </div>
