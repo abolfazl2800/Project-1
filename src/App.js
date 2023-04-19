@@ -1,13 +1,13 @@
 import './App.css';
+import Antd from "./Component/Antd";
+import Upload from './Component/Upload';
 
 const App = () => {
   return (
     <div className='wrapper'>
       <div className='app'>
-        <div className='right radius'></div>
-        <div className='center radius'></div>
-        <div className='left radius'></div>
-        enmeimhoertinhkjtnhotnhointhith;iabibrg
+        <Antd />
+        <Upload />
       </div>
       <input type='file'></input>
     </div>
