@@ -34,6 +34,7 @@ const UploadFile = () => (
     </Upload>
     <br />
     <br />
+    <div>tyjtyj</div>
   </>
 );
 
