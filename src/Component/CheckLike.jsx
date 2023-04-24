@@ -4,7 +4,7 @@ import React from "react";
 const CheckLike = () => {
     return(
         <div>
-            tyjhyjyetjtjmrpokimnrotytrhjytrjyj
+            hello World!
         </div>
     )
 }
