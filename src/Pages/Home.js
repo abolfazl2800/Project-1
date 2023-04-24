@@ -1,6 +1,5 @@
-import UploadFile from "../Component/UploadFile";
-import Upload from "../Component/UploadFile";
 import React from "react";
+import UploadFile from "../Component/UploadFile";
 
 
 const Home = () => {
