@@ -63,3 +63,7 @@ input , select , textarea , button{
 .p{
   width: 800px
 }
+
+a{
+  justify-content: space-between;
+}

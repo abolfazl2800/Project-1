@@ -1,17 +1,14 @@
 import './App.css';
 import Antd from "./Component/Antd";
-import Upload from './Component/Upload';
+import Upload from './Component/UploadFile';
+import Layout from './Component/Layout'; 
+import Home from './Pages/Home';
 
 const App = () => {
   return (
-    <Upload>
-      <div className='wrapper'>
-      <div className='app'>
-        <Antd />
-      </div>
-      <input type='file'></input>
-    </div>
-    </Upload>
+    <Layout>
+      <Home />
+    </Layout>
   )
 }
 
