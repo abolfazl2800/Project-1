@@ -2,9 +2,17 @@
   text-align: center;
 }
 
+html{
+  height: 100%;
+}
+
 body{
   font-size: 20px;
   text-align: center;
+}
+
+.upload{
+  height: 100%;
 }
 
 input , select , textarea , button{
@@ -14,8 +22,8 @@ input , select , textarea , button{
 
 .app{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   margin-top: 40px;
   align-content: flex-start;
   margin-bottom: 200px;
@@ -42,4 +50,16 @@ input , select , textarea , button{
 
 .radius{
   border-radius: 20%;
+}
+
+.Button{
+  width: 200px;
+}
+
+.search{
+  width: 140px;
+}
+
+.p{
+  width: 800px
 }

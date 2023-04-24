@@ -4,13 +4,14 @@ import Upload from './Component/Upload';
 
 const App = () => {
   return (
-    <div className='wrapper'>
+    <Upload>
+      <div className='wrapper'>
       <div className='app'>
         <Antd />
-        <Upload />
       </div>
       <input type='file'></input>
     </div>
+    </Upload>
   )
 }
 
