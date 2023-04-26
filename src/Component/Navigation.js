@@ -23,6 +23,11 @@ const Navigation = () => {
           label: 'Login',
           key: 'Login',
           id: 3
+        },
+        {
+          label: 'Profile',
+          key: 'Profile/*',
+          id: 4
         }
     ]
 
@@ -38,7 +43,7 @@ const Navigation = () => {
     };
 
     const navStyle = {
-      backgroundColor: 'whitesmoke',
+      backgroundColor: 'whiteSmoke',
       borderRadius: '5px'
     }
 
