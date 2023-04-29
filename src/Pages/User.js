@@ -2,13 +2,13 @@ import React from "react";
 
 
 
-const Cart = () => {
+const User = () => {
     return(
         <div>
-            Cart
+            User
         </div>
     )
 }
 
 
-export default Cart;
+export default User;

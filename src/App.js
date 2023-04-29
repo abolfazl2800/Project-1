@@ -2,11 +2,9 @@ import {Route, Routes } from 'react-router-dom';
 import './App.css';
 import Layout from './Component/Layout'; 
 import Home from './Pages/Home';
-import Cart from './Pages/Cart';
 import Login from './Pages/Login';
 import Profile from './Pages/Profile';
-import Dashboard from './Component/Dashboard';
-import Download from './Component/Download';
+import User from './Pages/User';
 
 const App = () => {
 
@@ -14,7 +12,7 @@ const App = () => {
     <Layout>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/Cart' element={<Cart />}/>
+        <Route path='/Cart' element={<User />}/>
         <Route path='/Login' element={<Login />}/>
         <Route path='/Profile/*' exact element={<Profile />}/>
       </Routes>
